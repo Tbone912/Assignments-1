@@ -1,0 +1,62 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+h2 {
+  color: black;
+  margin-left: 20px;
+}
+
+h3 {
+  color: black;
+  margin-left: 20px;
+}
+
+p {
+  text-align: left;
+  margin-left: 20px;
+  color: black;
+}
+
+table {
+  width:67%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 1px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #6aa6d4;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+
+div { 
+  display: block;
+  border: 10px outset green;
+  text-align: center;
+
+}
+
+a:hover {
+  background-color: red;
+}
+
+rb {
+  color: red;
+  font-weight: bold;
+}
